@@ -23,7 +23,7 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
 			</Item>
-			<Item Name="Event-Wrapper.lvclass" Type="LVClass" URL="../Actor/Event-Wrapper.lvclass"/>
+			<Item Name="Already Stopped.vi" Type="VI" URL="../Actor/Already Stopped.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
