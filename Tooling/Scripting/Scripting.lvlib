@@ -25,10 +25,16 @@
 			<Item Name="Events Cluster Label Text.vi" Type="VI" URL="../Scripting/Events Cluster Label Text.vi"/>
 		</Item>
 		<Item Name="Type-Defs" Type="Folder">
+			<Item Name="Error-Codes.ctl" Type="VI" URL="../Scripting/Error-Codes.ctl"/>
+			<Item Name="Event-Type-Information.ctl" Type="VI" URL="../Scripting/Event-Type-Information.ctl"/>
 			<Item Name="Locale-Strings.ctl" Type="VI" URL="../Scripting/Locale-Strings.ctl"/>
 		</Item>
 		<Item Name="Add Control to Events-Cluster.vi" Type="VI" URL="../Scripting/Add Control to Events-Cluster.vi"/>
+		<Item Name="Bundle-Error.vi" Type="VI" URL="../Scripting/Bundle-Error.vi"/>
 		<Item Name="Clone Template Actor.vi" Type="VI" URL="../Scripting/Clone Template Actor.vi"/>
+		<Item Name="Convert Error.vi" Type="VI" URL="../Scripting/Convert Error.vi"/>
 		<Item Name="Create Event Type-Def for API Call.vi" Type="VI" URL="../Scripting/Create Event Type-Def for API Call.vi"/>
+		<Item Name="Empty Path to Error.vi" Type="VI" URL="../Scripting/Empty Path to Error.vi"/>
+		<Item Name="Get Event-Reference Type Information.vi" Type="VI" URL="../Scripting/Get Event-Reference Type Information.vi"/>
 	</Item>
 </Library>
