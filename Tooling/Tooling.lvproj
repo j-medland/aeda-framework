@@ -11,18 +11,15 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Templates" Type="Folder">
-			<Item Name="Request-Reply Message" Type="Folder">
-				<Property Name="NI.SortType" Type="Int">3</Property>
-				<Item Name="Create Request-Reply.vi" Type="VI" URL="../Templates/Actor/Create Request-Reply.vi"/>
-				<Item Name="Send Request.vi" Type="VI" URL="../Templates/Actor/Send Request.vi"/>
-				<Item Name="Subscribe to Request-Reply.vi" Type="VI" URL="../Templates/Actor/Subscribe to Request-Reply.vi"/>
-				<Item Name="Subscribe to Broadcast.vi" Type="VI" URL="../Templates/Actor/Subscribe to Broadcast.vi"/>
-			</Item>
-			<Item Name="Actor.lvclass" Type="LVClass" URL="../Templates/Actor/Actor.lvclass"/>
+		<Item Name="Tests" Type="Folder">
+			<Item Name="Test.vi" Type="VI" URL="../Tests/Test.vi"/>
+			<Item Name="Test 2.vi" Type="VI" URL="../Tests/Test 2.vi"/>
+			<Item Name="Example Request.ctl" Type="VI" URL="../Tests/Example Request.ctl"/>
+			<Item Name="Example Reply.ctl" Type="VI" URL="../Tests/Example Reply.ctl"/>
 		</Item>
+		<Item Name="Templates" Type="Folder"/>
+		<Item Name="Templates.lvlib" Type="Library" URL="../Templates.lvlib"/>
 		<Item Name="Scripting.lvlib" Type="Library" URL="../Scripting.lvlib"/>
-		<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 		<Item Name="Tidy Project.vi" Type="VI" URL="../Tidy Project.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -68,6 +65,7 @@
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
 				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
