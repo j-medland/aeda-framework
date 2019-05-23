@@ -17,9 +17,7 @@
 			<Item Name="Example Request.ctl" Type="VI" URL="../Tests/Example Request.ctl"/>
 			<Item Name="Example Reply.ctl" Type="VI" URL="../Tests/Example Reply.ctl"/>
 		</Item>
-		<Item Name="Templates" Type="Folder"/>
-		<Item Name="Templates.lvlib" Type="Library" URL="../Templates.lvlib"/>
-		<Item Name="Scripting.lvlib" Type="Library" URL="../Scripting.lvlib"/>
+		<Item Name="Scripting.lvlib" Type="Library" URL="../Scripting/Scripting.lvlib"/>
 		<Item Name="Tidy Project.vi" Type="VI" URL="../Tidy Project.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
