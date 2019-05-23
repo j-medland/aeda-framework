@@ -9,7 +9,7 @@
 
 </Property>
 	<Item Name="Templates" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Message Support VIs" Type="Folder">
 			<Item Name="Create Request-Reply.vi" Type="VI" URL="../Create Request-Reply.vi"/>
