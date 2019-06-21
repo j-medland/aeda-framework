@@ -67,10 +67,8 @@
 	<Item Name="Scripting Actions" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Create Type-Def.vi" Type="VI" URL="../Create Type-Def.vi"/>
-		<Item Name="Script Subscribe To Broadcast.vi" Type="VI" URL="../Script Subscribe To Broadcast.vi"/>
 		<Item Name="Script Message Enqueuers Reference Components.vi" Type="VI" URL="../Script Message Enqueuers Reference Components.vi"/>
 		<Item Name="Script Request and Reply Components.vi" Type="VI" URL="../Script Request and Reply Components.vi"/>
 	</Item>
-	<Item Name="Actor.lvclass" Type="LVClass" URL="../Actor.lvclass"/>
-	<Item Name="Test Actor.vi" Type="VI" URL="../../Test Actor.vi"/>
+	<Item Name="Actor.lvlib" Type="Library" URL="../Actor.lvlib"/>
 </Library>
