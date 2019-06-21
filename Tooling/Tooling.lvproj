@@ -11,8 +11,14 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Unit-Testing" Type="Folder" URL="../Unit-Testing">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="Unit-Testing" Type="Folder">
+			<Item Name="Tests" Type="Folder">
+				<Item Name="Actor-Template API.vi" Type="VI" URL="../Unit-Testing/Tests/Actor-Template API.vi"/>
+			</Item>
+			<Item Name="Utilty" Type="Folder">
+				<Item Name="Default Timeout.vi" Type="VI" URL="../Unit-Testing/Default Timeout.vi"/>
+			</Item>
+			<Item Name="Scripting Tests.vi" Type="VI" URL="../Unit-Testing/Scripting Tests.vi"/>
 		</Item>
 		<Item Name="Scripting.lvlib" Type="Library" URL="../Scripting/Scripting.lvlib"/>
 		<Item Name="Tidy Project.vi" Type="VI" URL="../Tidy Project.vi"/>
